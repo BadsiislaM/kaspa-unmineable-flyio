@@ -1,1 +1,9 @@
+app = "kaspa-unmineable"  # يمكنك تغييره إذا أردت اسمًا مختلفًا
+primary_region = "fra"    # يمكنك تغييره إلى أقرب مركز لك مثل iad, ams, lhr...
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  WALLET = "KAS:kaspa:qp2kr66xgw2aaukrtfzktmz045cmh6vdvpk0lqh4t8d707py9kysxdywnr7nc.unmineable_worker_zsutaep#9orn-qafv"
 
